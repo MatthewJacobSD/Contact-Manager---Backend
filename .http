@@ -1,0 +1,55 @@
+### 👶 Register a new user
+POST http://localhost:5000/api/users/register
+Content-Type: application/json
+
+{
+  "username": "coolUser123",
+  "email": "cool@example.com",
+  "password": "P@ssw0rd123"
+}
+
+### 🔑 Login with credentials
+POST http://localhost:5000/api/users/login
+Content-Type: application/json
+
+{
+  "email": "cool@example.com",
+  "password": "P@ssw0rd123"
+}
+
+### 📱 Create new contact (replace TOKEN)
+POST http://localhost:5000/api/contacts
+Content-Type: application/json
+Authorization: Bearer YOUR_TOKEN_HERE
+
+{
+  "name": "Alice",
+  "lastname": "Smith",
+  "email": "alice@example.com",
+  "phoneNo": "9876543210"
+}
+
+### 📇 Get all contacts (replace TOKEN)
+GET http://localhost:5000/api/contacts
+Authorization: Bearer YOUR_TOKEN_HERE
+
+### 🔍 Search contacts by name (replace TOKEN)
+GET http://localhost:5000/api/contacts?name=Alice
+Authorization: Bearer YOUR_TOKEN_HERE
+
+### ✏️ Update contact (replace ID and TOKEN)
+PUT http://localhost:5000/api/contacts/123456
+Content-Type: application/json
+Authorization: Bearer YOUR_TOKEN_HERE
+
+{
+  "phoneNo": "5556667777"
+}
+
+### 🗑️ Delete contact (replace ID and TOKEN)
+DELETE http://localhost:5000/api/contacts/123456
+Authorization: Bearer YOUR_TOKEN_HERE
+
+### 👤 Get current user (replace TOKEN)
+GET http://localhost:5000/api/users/current
+Authorization: Bearer YOUR_TOKEN_HERE
