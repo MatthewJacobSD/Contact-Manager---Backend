@@ -1,7 +1,3 @@
-Here’s your **structured README.md** while keeping the **Gen-Z** energy intact:
-
----
-
 # 📇 Contact Manager API - Backend
 
 **Keep your contacts organized, secure, and drama-free** ✨  
