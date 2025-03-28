@@ -106,7 +106,7 @@ curl -X POST http://localhost:5000/api/contacts \
 ## 📜 License
 
 MIT © [MatthewJacobSD]  
-*Translation: Do whatever, just don't sue me*
+*Translation: Do whatever you want, just don’t come crying if it breaks. No lawsuits, no drama.*
 
 ---
 
