@@ -109,7 +109,7 @@ curl -X POST http://localhost:5000/api/contacts \
 
 ## 📜 License
 
-MIT © [Your Name]  
+MIT © [MatthewJacobSD]  
 *Translation: Do whatever, just don't sue me*
 
 ---
