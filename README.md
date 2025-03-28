@@ -118,11 +118,8 @@ MIT © [MatthewJacobSD]
 ---
 
 🔥 **Built with vibes and caffeine** ☕
-```
 
 ### 🔥 **Why this works:**
 ✅ **Structured for clarity** - Sections are clearly labeled and easy to follow.  
 ✅ **Engaging yet informative** - Keeps the Gen-Z tone while delivering essential information.  
 ✅ **Future-proof** - Leaves room for additional features and expansions.  
-
-Let me know if you need any tweaks! 🚀
